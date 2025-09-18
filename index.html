@@ -29,7 +29,7 @@
             <h1 class="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
                 亞東醫院啟動 BNCT 首例<br>乳癌臨床治療成功添新希望
             </h1>
-            <p class="text-gray-500 text-sm">發布時間：2023年7月5日</p>
+            <p class="text-gray-500 text-sm">發布時間：2025年9月17日</p>
         </header>
 
         <!-- 新增的按鈕 -->
@@ -104,6 +104,29 @@
         <!-- 頁尾與原始連結 -->
         <footer class="text-center mt-8 pt-6 border-t border-gray-200">
             <p class="text-gray-500 text-sm">
+                原始報導來源：<br class="sm:hidden">
+                <a href="https://tw.news.yahoo.com/share/f8592c81-cda3-36f1-b57f-a7d4168f2428"
+                   class="text-blue-500 hover:underline"
+                   target="_blank" rel="noopener noreferrer">
+                    Yahoo奇摩新聞
+                </a>
+            </p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript 腳本來處理互動 -->
+    <script>
+        function toggleFAQ(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('span');
+            content.classList.toggle('hidden');
+            icon.textContent = content.classList.contains('hidden') ? '+' : '-';
+        }
+    </script>
+
+</body>
+</html>            <p class="text-gray-500 text-sm">
                 原始報導來源：<br class="sm:hidden">
                 <a href="https://tw.news.yahoo.com/share/f8592c81-cda3-36f1-b57f-a7d4168f2428"
                    class="text-blue-500 hover:underline"
